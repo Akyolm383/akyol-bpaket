@@ -1,0 +1,1 @@
+	['bpaket'] 		 				 = {['name'] = 'bpaket', 							['label'] = 'Başlangıç Paketi', 						['weight'] = 200, 		['type'] = 'item', 		['image'] = 'bpaket.png', 					['unique'] = false, 		['useable'] = true, 	['shouldClose'] = false,   	['combinable'] = nil,   	['description'] = 'Başlangıç Paket >:('},
