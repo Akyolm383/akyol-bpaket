@@ -1,0 +1,2 @@
+# akyol-bpaket
+FiveM script
