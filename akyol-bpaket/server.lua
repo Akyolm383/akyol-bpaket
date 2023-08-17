@@ -11,6 +11,7 @@ local src = source
 local Player = QBCore.Functions.GetPlayer(src)
 for _, itemData in ipairs(Config.items) do
 	Player.Functions.AddItem(itemData.name, itemData.amount)
+	Player.Functions.RemoveItem("bpaket", 1)
 	TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items[itemData.name], "add", itemData.amount)
 end
 end)
